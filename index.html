@@ -295,10 +295,10 @@
                     .expandDims(0); 
 
                 // *If* your python code normalized pixels (e.g., img/255.0), you must do it here:
-                    const normalizedTensor = tensor.div(255.0);
+                // const normalizedTensor = tensor.div(255.0);
                 
                 // --- ACTUAL PREDICTION (Uncomment when you have the real model) ---
-                    const predictionArray = await model.predict(tensor).data();
+                // const predictionArray = await model.predict(tensor).data();
                 // -------------------------------------------------------------------
                 
                 // --- MOCK PREDICTION FOR PREVIEW ---
